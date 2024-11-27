@@ -1,49 +1,49 @@
-/* Header.css */
 .header {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    background-color: #1a1a1a;
-    color: #f2f2f2;
-    padding: 50px 20px;
-    min-height: 60vh;
-  }
-  
-  .header-content {
-    max-width: 800px;
-  }
-  
-  .header-name {
-    font-size: 2.5rem;
-    font-weight: bold;
-    margin-bottom: 10px;
-  }
-  
-  .header-expertise {
-    font-size: 1.25rem;
-    margin-bottom: 15px;
-    color: #cccccc;
-  }
-  
-  .header-about {
-    font-size: 1rem;
-    margin-bottom: 20px;
-    line-height: 1.5;
-  }
-  
-  .header-icons {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-  }
-  
-  .header-icon {
-    color: #f2f2f2;
-    transition: color 0.3s ease;
-  }
-  
-  .header-icon:hover {
-    color: #007bff; /* Changes color on hover */
-  }
-  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #1a1a1a;
+  color: #f2f2f2;
+  padding: 20px 0;
+  height: 40vh; /* Define explicit height */
+  position: relative; /* Ensure it affects normal document flow */
+}
+
+.header-content {
+  max-width: 800px;
+}
+
+.header-name {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.header-expertise {
+  font-size: 1.125rem;
+  margin-bottom: 10px;
+  color: #cccccc;
+}
+
+.header-about {
+  font-size: 0.9rem;
+  margin-bottom: 15px;
+  line-height: 1.4;
+}
+
+.header-icons {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.header-icon {
+  color: #f2f2f2;
+  transition: color 0.3s ease;
+}
+
+.header-icon:hover {
+  color: #007bff;
+}

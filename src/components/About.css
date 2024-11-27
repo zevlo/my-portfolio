@@ -1,53 +1,51 @@
-/* About.css */
 .about-section {
-  background-color: #1a1a1a; /* Dark background */
-  color: #f2f2f2; /* Light text */
-  padding: 50px 20px;
+  background-color: #1a1a1a; /* Consistent dark background */
+  color: #f2f2f2; /* Light text for readability */
+  padding: 60px 20px;
   text-align: center;
 }
 
-.about-content {
-  max-width: 800px;
-  margin: 0 auto;
-}
-
 .about-section h2 {
-  font-size: 2rem;
+  font-size: 2.5rem; /* Matches Learning and Projects sections */
   margin-bottom: 20px;
-  color: #ffffff;
+  color: #ffffff; /* Bright white heading */
 }
 
 .about-section p {
-  font-size: 1rem;
-  line-height: 1.6;
-  margin-bottom: 30px;
+  font-size: 1.125rem; /* Matches body text in other sections */
+  line-height: 1.8; /* Good readability */
+  color: #cccccc; /* Softer gray for contrast */
+  margin: 0 auto;
+  max-width: 800px; /* Limit width for a clean look */
+  margin-bottom: 40px;
 }
 
 .about-section h3 {
-  font-size: 1.5rem;
+  font-size: 2rem; /* Subheading for Core Skills */
   margin-bottom: 20px;
-  color: #cccccc;
+  color: #ffffff;
 }
 
 .core-skills {
-  list-style: none;
+  list-style: none; /* Remove default bullet points */
   padding: 0;
   display: flex;
+  flex-wrap: wrap; /* Wrap items if needed */
+  gap: 15px; /* Space between items */
   justify-content: center;
-  flex-wrap: wrap;
-  gap: 15px;
 }
 
 .core-skills li {
-  background-color: #333;
+  background-color: #333; /* Neutral dark gray */
+  color: #ffffff; /* White text */
   padding: 10px 20px;
   border-radius: 5px;
   font-size: 1rem;
-  color: #ffffff;
   transition: transform 0.3s ease, background-color 0.3s ease;
+  cursor: pointer; /* Indicate interactivity */
 }
 
 .core-skills li:hover {
-  transform: scale(1.05);
-  background-color: #007bff; /* Highlighted blue on hover */
+  transform: scale(1.1); /* Slightly enlarge on hover */
+  background-color: #007bff; /* Bright blue on hover */
 }

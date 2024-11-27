@@ -1,15 +1,20 @@
 import React from 'react';
+import './Projects.css';
 
 const Projects = () => {
   return (
-    <section id="projects">
+    <section id="projects" className="projects-section">
       <h2>Projects</h2>
-      <div className="project">
-        <h3>Project Title</h3>
-        <p>Project description goes here.</p>
-        <a href="https://github.com" target="_blank" rel="noopener noreferrer">View Code</a>
+      <div className="projects-grid">
+        <div className="project-card">
+          <h3>Project One</h3>
+          <p>A brief description of Project One.</p>
+        </div>
+        <div className="project-card">
+          <h3>Project Two</h3>
+          <p>A brief description of Project Two.</p>
+        </div>
       </div>
-      {/* Add more projects */}
     </section>
   );
 };
