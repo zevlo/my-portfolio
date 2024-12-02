@@ -7,16 +7,14 @@ const About = () => {
       <h2>About Me</h2>
       <p>
         I am a Splunk Core Certified Power User and Splunk Enterprise Certified Admin (2023) with hands-on
-        cybersecurity experience, including completing the TryHackMe Advent of Cyber 2024. I specialize in solving
-        problems, improving processes with DMAIC, and helping organizations strengthen their security posture to meet
-        industry standards.
+        cybersecurity experience, including completing the TryHackMe Advent of Cyber 2024.
       </p>
       <h3>Core Skills</h3>
       <ul className="core-skills">
-        <li>React.js</li>
-        <li>JavaScript (ES6+)</li>
-        <li>HTML5 & CSS3</li>
-        <li>Node.js</li>
+        <li>Cloud Security</li>
+        <li>Log Analysis</li>
+        <li>Penetration Testing</li>
+        <li>Splunk</li>
       </ul>
     </section>
   );
